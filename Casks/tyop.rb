@@ -1,14 +1,14 @@
 cask "tyop" do
-  version "1.0.0"
+  version "1.0.1"
 
   on_arm do
     url "https://github.com/liamg/tyop/releases/download/v#{version}/tyop-darwin-arm64.tar.gz"
-    sha256 "bebd24be4f3adc6a8c9781d7a5a0e0ec658bce03273513ce5355e7ad7abeaa66"
+    sha256 "77bf6e23efb0bfe0741ab12559fc1ec831bfccd405e23a668931e2b842e760e6"
   end
 
   on_intel do
     url "https://github.com/liamg/tyop/releases/download/v#{version}/tyop-darwin-amd64.tar.gz"
-    sha256 "1be32ef23ddeeb27ffd8637305c51145c9761f10cd4602cce34ce569f51f97c1"
+    sha256 "77b8ac2132fa27c2d108c764f858d0929c4c441ba6d35fa1afd965e770eb54be"
   end
 
   name "tyop"
