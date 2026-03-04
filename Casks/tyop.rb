@@ -19,12 +19,6 @@ cask "tyop" do
 
   app "tyop.app"
 
-  postflight do
-    system_command "/usr/bin/open",
-                   args: ["-a", "#{appdir}/tyop.app"],
-                   sudo: false
-  end
-
   uninstall quit: "com.liamg.tyop"
   zap trash: [
     "~/Library/Application Support/tyop",
